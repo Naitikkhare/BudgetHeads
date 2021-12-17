@@ -32,7 +32,7 @@ html{
 h1{
 
     /* text-align: left; */
-    font-size:400%;
+    font-size:4rem;
     margin-left: auto;
     margin-right: auto;
     width:80%;
@@ -43,6 +43,7 @@ h1{
     
     
 .left-box {
+    font-size:1.6rem;
       
     margin-top: 2rem;
         /* margin-left: 4rem; */
@@ -61,7 +62,7 @@ margin-top: 20rem;
 width: 30%;
     /* margin-right: 2rem; */
     /* margin-left: 2rem; */
-font-size:large;
+font-size:1.8rem;
     /* height: 100%; */
 
 }
@@ -73,7 +74,7 @@ font-size:large;
     color: #000;
     margin-top: 2rem;
     margin-left: 0.8rem;
-    font-size: x-large;
+    font-size: 2.2rem;
 }
 
 .line1{
@@ -105,7 +106,7 @@ font-size:large;
 }
 .para1{
     /* margin-top: 4rem; */
-    font-size: large;
+    /* font-size: large; */
     text-align: left;
     margin-bottom: 2.6rem;
     margin-top: 1rem;
@@ -128,15 +129,28 @@ h2{
 }
 
 @media (max-width: 990px) {
+    html{
+        font-size:50%
+    }
+    h1{
+        font-size:2.8rem;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
     .main-box{
         flex-direction: column;
         justify-content: space-between;
-        align-items: center;
+        align-items: start;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
         /* background: teal; */
 
     }
     .right-box{
-        width: 90%;
+        width: 98%;
         margin-left:auto;
         margin-right: auto;
         margin-top: 1rem;
@@ -144,7 +158,7 @@ h2{
     }
 
     .left-box{
-        width: 90%;
+        width: 98%;
         margin-left: auto;
         margin-right: auto;
     }
